@@ -6,11 +6,11 @@ public class NIP07066soalPendahuluan1_4 {
             System.out.println("masukan umur =");
             int umur = input.nextInt();
             if(umur<5){
-                System.out.print("umur BALITA");
+                System.out.println("umur BALITA");
             }else if(umur>=50){
-                System.out.print("umur TUA BANGKA");
+                System.out.println("umur TUA BANGKA");
             }else if(umur>=6 && umur<=17){
-                System.out.print("umur ANAK-ANAK");
+                System.out.println("umur ANAK-ANAK");
             }else if(umur>=18 && umur<=50){
                 System.out.println("umur DEWASA")   ;
             }
