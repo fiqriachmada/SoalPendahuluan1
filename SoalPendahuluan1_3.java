@@ -8,6 +8,6 @@ public class NPM07066soalPendahuluan1_3 {
         double tinggi=input.nextDouble();
         double pi=3.14;
         double vol= (diameter/2*pi*pi)*tinggi;
-        System.out.println("volume tabung = "+vol);
+        System.out.println("Volume tabung = "+vol);
     }
 }
