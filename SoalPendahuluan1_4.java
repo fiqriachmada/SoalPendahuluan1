@@ -4,7 +4,7 @@ public class NPM07066soalPendahuluan1_4 {
     public static void main(String[]args){
         Scanner input= new Scanner(System.in);
         do {
-            System.out.print("Masukkan Umur =");
+            System.out.print("Masukkan Umur = ");
             int umur = input.nextInt();
             if(umur<=5){
                 System.out.println("Umur BALITA");
