@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NIP07066soalPendahuluan1_4 {
+public class NPM07066soalPendahuluan1_4 {
     public static void main(String[]args){
         Scanner input= new Scanner(System.in);
         do {
