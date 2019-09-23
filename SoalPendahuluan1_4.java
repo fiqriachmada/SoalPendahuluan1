@@ -1,20 +1,21 @@
 import java.util.Scanner;
+
 public class NIP07066soalPendahuluan1_4 {
     public static void main(String[]args){
         Scanner input= new Scanner(System.in);
         do {
-            System.out.println("masukan umur =");
+            System.out.print("Masukkan Umur =");
             int umur = input.nextInt();
-            if(umur<5){
-                System.out.println("umur BALITA");
-            }else if(umur>=50){
-                System.out.println("umur TUA BANGKA");
+            if(umur<=5){
+                System.out.println("Umur BALITA");
+            }else if(umur>50){
+                System.out.println("Umur TUA");
             }else if(umur>=6 && umur<=17){
-                System.out.println("umur ANAK-ANAK");
+                System.out.println("Umur ANAK-ANAK");
             }else if(umur>=18 && umur<=50){
-                System.out.println("umur DEWASA")   ;
+                System.out.println("Umur DEWASA")   ;
             }
-            System.out.println("ulangi lagi? (y/n) ");
+            System.out.println("Ulangi lagi? (y/n) ");
             String pilih=input.next();
             if(pilih.equals("y")){
                 System.out.println("==========");
