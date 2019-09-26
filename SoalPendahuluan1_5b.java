@@ -1,4 +1,4 @@
-public class NIP07067tugasPendahuluan1_5b {
+public class NPM07066soalPendahuluan1_5b {
     public static void main(String[]argas){
         int a=10;
         while (a>0){
