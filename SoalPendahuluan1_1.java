@@ -1,4 +1,4 @@
-public class NPM07066soalPendahuluan1_2 {
+public class NPM07066soalPendahuluan1_1 {
     public static void main(String[] rgs){
         int diameter=10;
         double pi=3.14;
