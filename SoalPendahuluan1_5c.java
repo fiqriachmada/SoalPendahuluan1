@@ -1,4 +1,4 @@
-public class NPM07066tugasPendahuluan1_5c {
+public class NPM07066soalPendahuluan1_5c {
     public static void main(String[] args) {
         int a = 10;
         do {
