@@ -7,21 +7,21 @@ this.diameter=dm;
 }
 void Keliling(){
 double kll=diameter*pi;
-System.out.print("Keliling lingkaran adalah="+kll);
+System.out.print("Keliling lingkaran adalah "+kll);
 }
 double luas(){
 double luas=0.25*pi*diameter*diameter;
 return luas;
 }
 }
-public class NIP06946SoalPendahuluan1_8 {
+public class NPM07066soalPendahuluan1_8 {
     public static void main(String[] args) {
        Lingkaran bulet=new Lingkaran();
        double dm=10;
        bulet.setDiameter(dm);
        bulet.Keliling();
        double LUAS=bulet.luas();
-       System.out.println("Luas lingkaran adlaha:"+LUAS);
+       System.out.println("Luas lingkaran adalah "+LUAS);
     }
     
 }
