@@ -7,7 +7,7 @@ class lingkaran{
   }
   void keliling(){
     double kll=diameter*pi;
-    System.out.print("keliling lingkaran adalah"+kll);
+    System.out.print("Keliling lingkaran adalah "+kll);
     }
     double luas(){
     double luas=diameter/2*pi*pi;
@@ -21,6 +21,6 @@ class lingkaran{
     lingkaran bulet=new lingkaran(diameter);
     bulet.keliling();
     double LUAS=bulet.luas();
-    System.out.println("luas lingkaran adalah"+LUAS);
+    System.out.println("Luas lingkaran adalah "+LUAS);
    }
 }
