@@ -14,7 +14,7 @@ class lingkaran{
     return luas;
     }
     }
-    public class NPM07066SoalPendahuluan1_7 {
+    public class NPM07066soalPendahuluan1_7 {
     public static void main(String[]args){
     double diameter=10;
     //pembuatan object lingkaran
